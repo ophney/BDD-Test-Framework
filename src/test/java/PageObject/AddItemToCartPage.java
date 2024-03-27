@@ -15,13 +15,8 @@ public class AddItemToCartPage extends BasePage {
     @FindBy(xpath = "//button[contains(@title,'Search')]")
     public WebElement searchButton;
 
-
-//    @FindBy(linkText = "Hero Hoodie")
-//    public WebElement desiredItem;
-
     @FindBy(css ="#maincontent > div.columns > div.column.main > div.search.results > div.products.wrapper.grid.products-grid > ol > li:nth-child(1) > div > a > span > span > img")
     public WebElement desiredItem;
-
 
     @FindBy(id="option-label-size-143-item-167")
     public WebElement size;
@@ -33,7 +28,10 @@ public class AddItemToCartPage extends BasePage {
     public WebElement addToCartButton;
 
     @FindBy(xpath = "//span[contains(@class,'counter-number')]")
-    public WebElement myCartcounterNumber;
+    public WebElement myCartCounterNumber;
+    @FindBy(css = "#maincontent > div.page.messages > div:nth-child(2) > div > div > div")
+    public WebElement itemAddedMessage;
+
     @FindBy(xpath = "//a[@class='action showcart']")
     public WebElement myCart;
 
