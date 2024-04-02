@@ -1,7 +1,3 @@
-Certainly! Here's the revised README statement without the "Usage" and "Pre-requisites" sections:
-
----
-
 # Ecommerce Site Test Framework
 
 ## Description:
