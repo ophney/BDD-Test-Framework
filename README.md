@@ -1,4 +1,4 @@
-# Ecommerce Site Test Framework
+# BDD Test Framework
 
 ## Description:
 This mini test framework is designed to automate the testing of an ecommerce website. The framework includes a test case that launches the website, adds an item to the cart, and verifies that the correct item has been added.
